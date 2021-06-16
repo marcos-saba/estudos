@@ -130,22 +130,12 @@ main {
 
 }
 
-article > p {
-    
-    font-family: var(--fonte0);
-    font-size: 18px;
-    font-weight: 500;
-    text-align: justify;
-    line-height: 1.5em;
-    text-indent: 30px;
-
-}
-
 .titulo-principal-do-artigo {
     
     font-family: var(--fonte2);
     font-size: 32px;
     color: var(--cor4);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.623);
   
 }
 
@@ -157,6 +147,19 @@ article > p {
     background-image: linear-gradient(90deg, var(--cor0), white);
     padding-top: 2px;
     padding-left: 10px;
+    padding-bottom: 2px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.623);
+
+}
+
+article > p {
+    
+    font-family: var(--fonte0);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 35px;
 
 }
 
@@ -284,9 +287,6 @@ footer {
     
     background-color: var(--cor5);
     margin: 0px;
-    color: var(--cor0);
-    text-align: center;
-    font-size: 12px;
     padding: 0px;
 
 }
@@ -294,11 +294,16 @@ footer {
 footer > p {
     
     font-family: var(--fonte0);
+    color: var(--cor0);
+    text-align: center;
+    font-size: 14px;
     margin: 0px;
     padding: 10px;
 
 }
 
 strong.rodape {
+    
     color: white;
+
 }
