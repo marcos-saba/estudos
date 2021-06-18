@@ -102,7 +102,7 @@ a.menu:hover{
     
     font-weight: 600;
     color: var(--cor4);
-    text-shadow: none;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.411);
     background-color: var(--cor0);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
