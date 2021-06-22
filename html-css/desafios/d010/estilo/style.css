@@ -17,18 +17,24 @@
     --cor1: #83E1AD;
     --cor2: #3DDC84;
     --cor3: #2FA866;
-    --cor4: #247748;
+    --cor4: #1A5C37;
     --cor5: #063D1E;
-    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte0: Arial, Verdana, Helvetica, sans-serif;
     --fonte1: 'Bebas Neue', cursive;
-    --fonte2: 'Android', sans-serif;
+    --fonte2: 'Android', cursive;
+
+}
+
+* {
+    
+    margin: 0px;
+    padding: 0px;
 
 }
 
 body {
     
     background-color: var(--cor1);
-    margin: 0px;
 
 }
 
@@ -46,10 +52,9 @@ header {
     font-family: var(--fonte1);
     font-size: 40px;
     font-weight: normal;
-    color: var(--cor0);
+    color: white;
     text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.603);
-    margin: 0px;
     padding-top: 20px;
     padding-bottom: 10px;
 
@@ -58,12 +63,11 @@ header {
 .texto-do-titulo {
     
     font-family: var(--fonte0);
-    color: var(--cor0);
+    color: white;
     font-size: 15px;
     text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.603);
     line-height: 1.5em;
-    margin: 0px;
     padding-top: 10px;
     padding-bottom: 30px;
     
@@ -74,8 +78,8 @@ header {
 nav {
     
     background-color: var(--cor5);
-    padding: 4px;
     box-shadow: 2px 6px 5px 1px rgba(0, 0, 0, 0.274);
+    padding: 10px;
     
 }
 
@@ -89,8 +93,8 @@ a.menu {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.603);
     padding-left: 11px;
     padding-right: 11px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: var(--cor5);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -120,7 +124,7 @@ main {
     margin: auto;
     margin-bottom: 20px;
     background-color: white;
-    padding-top: 2px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -136,6 +140,7 @@ main {
     font-size: 32px;
     color: var(--cor4);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.623);
+    padding-bottom: 20px;
   
 }
 
@@ -149,6 +154,8 @@ main {
     padding-left: 10px;
     padding-bottom: 2px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.623);
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -199,11 +206,15 @@ img {
     
     max-width: 100%;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
 img.bugdroid {
-    
+
+    margin-top: 20px;
+    margin-bottom: 20px;    
     display: block;
     margin: auto;
 
@@ -214,6 +225,7 @@ div.video {
     position: relative;
     background-color: var(--cor4);
     height: 0px;
+    margin-top: 15px;
     margin-left: -20px;
     margin-right: -20px;
     margin-bottom: 15px;
@@ -238,7 +250,7 @@ aside {
     background-color: var(--cor0);
     padding-bottom: 30px;
     border-radius: 15px;
-    margin: 0px;
+    margin-bottom: 20px;
     box-shadow: 2px 3px 6px 3px rgba(158, 106, 106, 0.349);
 
 }
@@ -248,7 +260,6 @@ aside {
     font-family: var(--fonte0);
     background-color: var(--cor3);
     color: var(--cor0);
-    margin: 0px;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -286,24 +297,29 @@ aside > p {
 footer {
     
     background-color: var(--cor5);
-    margin: 0px;
-    padding: 0px;
 
 }
 
 footer > p {
     
     font-family: var(--fonte0);
-    color: var(--cor0);
+    color: white;
     text-align: center;
     font-size: 14px;
-    margin: 0px;
     padding: 10px;
 
 }
 
-strong.rodape {
+.link_rodape {
 
+    text-decoration: none;
     color: white;
+    font-weight: bolder;
+
+}
+
+.link_rodape:hover {
+
+    text-decoration: underline;
 
 }
