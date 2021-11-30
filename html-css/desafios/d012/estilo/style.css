@@ -1,0 +1,41 @@
+:root {
+    
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vw;
+
+}
+
+h1 {
+    font-family: 'Sriracha', cursive;
+}
+
+article {
+    font-family: ' Passion One', cursive;
+    font-size: 3vw;
+    font-style: italic;
+    line-height: 2em;
+    margin-left: 15px;
+    
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+section#img01 {
+    background-color: blue;
+    background-image: url("imagens/background001.jpg");
+}
+
+section#img02 {
+    background-color: red;
+    background-image: url("imagens/background002.jpg");
+
+}
+
+footer {
+
+}
