@@ -33,7 +33,7 @@ header > p {
     font-size: 1em;
 }
 
- p > a {
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -72,9 +72,10 @@ section.imagem > p {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.466);
     color: white;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.322);
 }
 
-#img01 {
+section#img01 {
     background-image: url("../imagens/background001.jpg");
     background-repeat: no-repeat;
     background-position: right center;
