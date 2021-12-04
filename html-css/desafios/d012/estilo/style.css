@@ -20,6 +20,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    
 }
 
 header {
@@ -73,6 +74,7 @@ section.normal {
 
 section.normal > p {
    padding-bottom: 10vh;
+
 }
 
 section.imagem {
@@ -95,6 +97,7 @@ section#img01 {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 section#img02 {
