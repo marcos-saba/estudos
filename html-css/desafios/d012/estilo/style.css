@@ -1,5 +1,7 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
@@ -58,7 +60,6 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-left: 30px;
-    padding-bottom: 10vh;
     font-family: var(--fonte02);
     font-size: 3.5vw;
     line-height: 2em;
@@ -67,17 +68,16 @@ section {
 
 section.normal {
     background-color: white;
-    
-
-    
+        
 }
 
 section.normal > p {
-   /*padding-bottom: 8vh;*/
+   padding-bottom: 10vh;
 }
 
 section.imagem {
     background-color: rgba(0, 0, 0, 0.466) ;
+    padding-bottom: 10vh;
 
 }
 
